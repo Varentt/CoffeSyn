@@ -1,0 +1,217 @@
+body {
+    background: linear-gradient(135deg, #d7bfa3 0%, #ede0d4 50%, #ffffff 100%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    color: #3b2f2f;
+}
+
+.navbar {
+    background-color: #8b5a2b !important; 
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffdd99 !important;
+}
+
+.card {
+    background-color: #fffdf8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+    color: #5c3d2e;
+}
+
+.btn-brown {
+    background-color: #b08968;
+    color: white;
+    border: none;
+    transition: background 0.3s;
+}
+.btn-brown:hover {
+    background-color: #a17455;
+}
+
+footer {
+    margin-top: 50px;
+    color: #6c757d;
+}
+
+.card {
+    background: linear-gradient(145deg, #fffaf5, #f0e0d0);
+    border: 1px solid #e0c9a6;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(139, 90, 43, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(139, 90, 43, 0.2);
+    border-color: #d4a373;
+    background: linear-gradient(145deg, #fffdf9, #f8ebde);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    background: rgba(176, 140, 99, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.card-body {
+    position: relative;
+    z-index: 1;
+}
+
+.card img {
+    width: 70px;
+    margin-top: 15px;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+}
+
+.card-title {
+    color: #5c3d2e;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #6b5a4a;
+}
+
+.btn-outline-primary, .btn-outline-success, .btn-outline-warning {
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+body {
+    background: linear-gradient(135deg, #e9dcc9 0%, #f8f5f2 50%, #ffffff 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #4b3b30;
+}
+
+h1, h2, h3 {
+    color: #5c3d2e;
+    font-weight: 600;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.menu-card {
+    background: #fffdf9;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(139, 90, 43, 0.15);
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #f1e2d0;
+}
+.menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(139, 90, 43, 0.25);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.menu-card h5 {
+    margin: 12px 0 6px;
+    color: #5c3d2e;
+    font-weight: 600;
+}
+
+.menu-card p {
+    color: #7b6a55;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.menu-card .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #b08968;
+}
+.btn-edit:hover {
+    background-color: #a17455;
+}
+
+.btn-hapus {
+    background-color: #d9534f;
+}
+.btn-hapus:hover {
+    background-color: #c9302c;
+}
+
+form {
+    background-color: #fffdf9;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f1e2d0;
+}
+
+form label {
+    color: #5c3d2e;
+    font-weight: 500;
+}
+
+form input, form select, form textarea {
+    border-radius: 8px;
+    border: 1px solid #d8c3a5;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+form button {
+    background-color: #b08968;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background-color: #a17455;
+}
+
